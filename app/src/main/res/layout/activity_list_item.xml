@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:padding="16dp"
+    android:background="#ECEFF1"
+    tools:context="com.example.pasystemsltd.tajweed101.list_item">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"/>
+
+    <LinearLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp">
+
+    <TextView
+        android:id="@+id/lesson_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="Lesson 1"
+        android:textAppearance="?android:textAppearanceSmall"
+        tools:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/lesson_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="Introduction to Makhaarij"
+        android:textAppearance="?android:textAppearanceSmall"/>
+
+        </LinearLayout>
+
+</LinearLayout>
